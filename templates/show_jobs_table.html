@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+{% block body %}
+  
+    <form action="{{ url_for('submit_job') }}" method=post class=add-entry>
+      <dl>
+        <dt>Job Name:
+        <dd><input type=text size=30 name=jobname>
+        <dd><input type=submit value=Find>
+      </dl>
+    </form>
+  
+  
+	<table>
+    <thead>
+		<tr>
+			<th colspan="2">Predessor</th>
+			<th colspan="2">Successor</th>
+		</tr>
+		<tr>
+			<th class='left'>Job</th>
+			<th>Owner</th>
+			<th class='left'>Job</th>
+			<th>Owner</th>
+		</tr>
+	</thead>
+	<tbody>
+  {% for entries in entries %}
+    <tr>
+		<td classs='left'>{{ entries.jobname}}</td>
+		<td>{{ entry.owner }}</td>
+		<td>{{ entry.owner }}</td>
+		<td>{{ entry.owner }}</td>
+	</tr>
+  {% else %}
+    <tr>
+		<td class='left'>Unbelievable.  No entries found</td>
+	</tr>
+  {% endfor %}
+    </tbody>
+   </table>
+  
+{% endblock %}

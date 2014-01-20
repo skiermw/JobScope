@@ -1,0 +1,34 @@
+{% extends "layout_new.html" %}
+{% block body %}
+  
+    <form action="{{ url_for('submit_job') }}" method=post class=add-entry>
+      <dl>
+        <dt>Job Name:
+        <dd><input type=text size=30 name=jobname>
+        <dd><input type=submit value=Find>
+      </dl>
+    </form>
+    	<aside><h1>Successors</h1>
+		<ul class=successors>
+		  {% for succ in successors %}
+			<li><h2>{{ succ.jobname }}</h2>{{ succ.owner|safe }}
+		  {% else %}
+			<li><em>No jobs found</em>
+		  {% endfor %}
+		</ul>
+	</aside>
+	
+	<section><h1>Predecessors</h1>
+		<ul class=predessors>
+		  {% for pred in predessors %}
+			<li><h2>{{ pred.jobname }}</h2>{{ pred.owner|safe }}
+		  {% else %}
+			<li><em>No jobs found</em>
+		  {% endfor %}
+		</ul>
+	</section>
+	
+
+	
+  
+{% endblock %}

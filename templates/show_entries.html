@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block body %}
+  {% if session.logged_in %}
+    <form action="{{ url_for('submit_job') }}" method=post class=add-entry>
+      <dl>
+        <dt>Job Name:
+        <dd><input type=text size=30 name=jobname>
+        <dd><input type=submit value=Find>
+      </dl>
+    </form>
+  {% endif %}
+  <ul class=entries>
+    <li><h2>Predessors</h2>
+  {% for entry in entries %}
+    <li><h2>{{ entry.jobname}}</h2>{{ entry.owner }}
+  {% else %}
+    <li><em>Unbelievable.  No entries found</em>
+  {% endfor %}
+  </ul>
+{% endblock %}
