@@ -23,10 +23,10 @@ def main():
 def connect():
     try:
         #graph_db = neo4j.GraphDatabaseService("http://localhost:7474/db/data/")
-		neo4j.authenticate("batch.sb01.stations.graphenedb.com:24789",
-                   "Batch", "OdrjS6dFQQElASckvoUN")
+		neo4j.authenticate("jobscope.sb01.stations.graphenedb.com:24789",
+                   "JobScope", "0W07c5PCLYr4yxPDd9ir")
 
-		graph_db = neo4j.GraphDatabaseService("http://batch.sb01.stations.graphenedb.com:24789/db/data/")
+		graph_db = neo4j.GraphDatabaseService("http://jobscope.sb01.stations.graphenedb.com:24789/db/data/")
     except rest.ResourceNotFound:
         print 'Database service not found'
     return graph_db
@@ -55,15 +55,15 @@ def load_file(ifile, bsize, gdb):
 def load_batch(rows, graph_db):
  
     print "%10d  loading %i rows..." % (time(), len(rows))
-    batch = neo4j.WriteBatch(graph_db)  # batch is linked to graph database
+    #batch = neo4j.WriteBatch(graph_db)  # batch is linked to graph database
  
     for row in rows:
 		job = row[0]
 		#job = job.rstrip()
 		#print 'job = %s       Length %i' % (job, len(row))	
-		batch.get_or_create_indexed_node(JOB_INDEX, 'jobname', job, { 'type': 'JOB', 'jobname': job})
-		
-    batch.run()
+		job_node, = graph_db.create({'jobname': job})
+		job_node.add_labels("Job")
+    #batch.run()
  
    
  

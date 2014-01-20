@@ -26,10 +26,10 @@ def main():
 def connect():
     try:
         #graph_db = neo4j.GraphDatabaseService("http://localhost:7474/db/data/")
-		neo4j.authenticate("batch.sb01.stations.graphenedb.com:24789",
-                   "Batch", "OdrjS6dFQQElASckvoUN")
+		neo4j.authenticate("jobscope.sb01.stations.graphenedb.com:24789",
+                   "JobScope", "0W07c5PCLYr4yxPDd9ir")
 
-		graph_db = neo4j.GraphDatabaseService("http://batch.sb01.stations.graphenedb.com:24789/db/data/")
+		graph_db = neo4j.GraphDatabaseService("http://jobscope.sb01.stations.graphenedb.com:24789/db/data/")
     except rest.ResourceNotFound:
         print 'Database service not found'
     return graph_db
@@ -61,12 +61,15 @@ def load_batch(rows, graph_db):
     batch = neo4j.WriteBatch(graph_db)  # batch is linked to graph database
  
     for row in rows:
-		section, job = row
+		schedule, job = row
 		#print 'section = %s  job = %s' % (section, job)
-		section_node = graph_db.get_indexed_node(SECTION_INDEX, 'name', section)
-		job_node = graph_db.get_indexed_node(JOB_INDEX, 'jobname', job)
-		#print ' %i OWNS %i' % (section_node._id, job_node._id)
-		batch.create(rel(section_node, "OWNS", job_node))
+		schedule_node = graph_db.get_indexed_node("Schedule", 'name', schedule)
+		#schedule_node = graph_db.find("Schedule", 'name', schedule)
+		#print 'schedule_node = %i' % schedule_node._id
+		job_node = graph_db.get_indexed_node("Job", 'jobname', job)
+		#job_node = graph_db.find("Job", 'jobname', job)
+		#print ' %i OWNS %i' % (schedule_node._id, job_node._id)
+		batch.create(rel(schedule_node, "OWNS", job_node))
 		#batch.get_or_create_indexed_relationship(SUCCESSOR_INDEX, 'type', "SUCCESSOR", pred_job, "SUCCESSOR", succ_job, {})
 		
     batch.run()
