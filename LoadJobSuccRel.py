@@ -1,4 +1,4 @@
-import argparse, csv, socket, struct
+import argparse, csv, socket, struct, time
 from time		import time
 from py2neo 	import neo4j, rel
 
@@ -10,6 +10,7 @@ SECTION_INDEX     = 'schedule_index'
 DEFAULT_BATCH_SIZE = 10000
 
 def main():
+	start_time = time.time()
 	parser = argparse.ArgumentParser()
 	parser.add_argument('ifile', help='the csv file to load')
 	parser.add_argument('-b', '--batch', type=int, default=DEFAULT_BATCH_SIZE,
@@ -22,6 +23,9 @@ def main():
 
 	
 	load_file(args.ifile, args.batch, graph_db)
+	elapsed_time = time.time() - start_time
+	
+	print 'elapsed time = %i' % elapsed_time
 	
 def connect():
     try:
@@ -63,13 +67,19 @@ def load_batch(rows, graph_db):
     for row in rows:
 		pred, succ = row
 		#print 'pred %s succ %s' % (pred, succ)
-		pred_node = graph_db.get_indexed_node(JOB_INDEX, 'jobname', pred)
-		succ_node = graph_db.get_indexed_node(JOB_INDEX, 'jobname', succ)
+		pred_node = graph_db.get_indexed_node("Jobs", 'jobname', pred)
+		succ_node = graph_db.get_indexed_node("Jobs, 'jobname', succ)
+		#schedule_node = batch.create(node(name=schedule))
+		#batch.add_labels(schedule_node, "Schedule")
+		#job_node = batch.create(node(jobname=job))
+		#batch.add_labels(job_node, "Job")
 		
+		#batch.create(rel(schedule_node, "OWNS", job_node))
 		batch.create(rel(pred_node, "SUCCESSOR", succ_node))
 		
 		
-    batch.run()
+    print 'Ok'
+	batch.run()
  
     
  

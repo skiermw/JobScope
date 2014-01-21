@@ -1,6 +1,6 @@
 import argparse, csv, socket, struct
 from time		import time
-from py2neo 	import neo4j, rel
+from py2neo 	import neo4j, rel, node
 
 JOB_INDEX         = 'job_index'
 #SECTION_INDEX     = 'section_index'
@@ -55,15 +55,17 @@ def load_file(ifile, bsize, gdb):
 def load_batch(rows, graph_db):
  
     print "%10d  loading %i rows..." % (time(), len(rows))
-    #batch = neo4j.WriteBatch(graph_db)  # batch is linked to graph database
+    batch = neo4j.WriteBatch(graph_db)  # batch is linked to graph database
  
     for row in rows:
 		job = row[0]
 		#job = job.rstrip()
 		#print 'job = %s       Length %i' % (job, len(row))	
-		job_node, = graph_db.create({'jobname': job})
-		job_node.add_labels("Job")
-    #batch.run()
+		job_node = batch.create(node(jobname=job))
+		batch.add_labels(job_node, "Job")
+		#job_node, = graph_db.create({'jobname': job})
+		#job_node.add_labels("Job")
+    batch.run()
  
    
  
