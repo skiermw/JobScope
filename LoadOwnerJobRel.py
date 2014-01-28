@@ -66,15 +66,19 @@ def load_batch(rows, graph_db):
  
 	#print "%10d  loading %i rows..." % (time(), len(rows))
 	batch = neo4j.WriteBatch(graph_db)  # batch is linked to graph database
-	
+	#print '%s' % graph_db.get_indexes(node)
 	for row in rows:
 		
 		schedule, job = row
+		print 'schedule %s, job %s' % (schedule, job)
 		#schedule_node = batch.get_or_create_indexed_node("Schedule", "name", schedule, {'name': schedule})
 		#job_node = batch.get_or_create_indexed_node("Job", "jobname", job)
-		schedule_node = graph_db.get_or_create_indexed_node("Schedule", 'name', schedule)
-		
-		job_node = graph_db.get_or_create_indexed_node("Job", 'jobname', job)
+		for schedule_node in graph_db.find("Schedule", 'name', schedule):
+			print 'schedule_node name is %s' % schedule_node["name"]
+		for job_node in graph_db.find("Job", 'jobname', job):
+			print 'job_node name is %s' % job_node["jobname"]
+		#job_node = graph_db.get_indexed_node("Job", 'jobname', job)
+		#print 'job_node jobname is %s' % job_node.jobname
 		#schedule_node = batch.create(node(name=schedule))
 		
 		#batch.add_labels(schedule_node, "Schedule")

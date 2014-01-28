@@ -1,11 +1,8 @@
 import argparse, csv, socket, struct, time
-from time		import time
+#from time		import time
 from py2neo 	import neo4j, rel
 
-JOB_INDEX         = 'job_index'
-SECTION_INDEX     = 'schedule_index'
-#OWNS_INDEX 	      = 'owns_index'
-#SUCCESSOR_INDEX   = 'successor_index'	
+
 	
 DEFAULT_BATCH_SIZE = 10000
 
@@ -17,10 +14,6 @@ def main():
         help='set batch size in terms of rows (default=%i)' % DEFAULT_BATCH_SIZE)
 	args = parser.parse_args() 
 	graph_db = connect()	
-	
-
-	#graph_db.get_or_create_index(neo4j.Relationship, OWNS_INDEX)
-
 	
 	load_file(args.ifile, args.batch, graph_db)
 	elapsed_time = time.time() - start_time
@@ -41,7 +34,7 @@ def connect():
  
 def load_file(ifile, bsize, gdb):
  
-    print 'loading batches of %i...' % bsize
+    #print 'loading batches of %i...' % bsize
  
     with open(ifile, 'rb') as csvfile:
         reader = csv.reader(csvfile, delimiter=',', quotechar='"')
@@ -61,25 +54,21 @@ def load_file(ifile, bsize, gdb):
  
 def load_batch(rows, graph_db):
  
-    print "%10d  loading %i rows..." % (time(), len(rows))
+    print "loading %i rows..." % len(rows)
     batch = neo4j.WriteBatch(graph_db)  # batch is linked to graph database
- 
+	
     for row in rows:
 		pred, succ = row
-		#print 'pred %s succ %s' % (pred, succ)
-		pred_node = graph_db.get_indexed_node("Jobs", 'jobname', pred)
-		succ_node = graph_db.get_indexed_node("Jobs, 'jobname', succ)
-		#schedule_node = batch.create(node(name=schedule))
-		#batch.add_labels(schedule_node, "Schedule")
-		#job_node = batch.create(node(jobname=job))
-		#batch.add_labels(job_node, "Job")
 		
-		#batch.create(rel(schedule_node, "OWNS", job_node))
-		batch.create(rel(pred_node, "SUCCESSOR", succ_node))
+		for pred_node in graph_db.find("Job", 'jobname', pred):
+			print 'pred_node name is %s' % pred_node["jobname"]
+		for succ_node in graph_db.find("Job", 'jobname', succ):
+			print 'succ_node name is %s' % succ_node["jobname"]
+
+		#batch.create(rel(pred_node, "SUCCESSOR", succ_node))
 		
-		
-    print 'Ok'
-	batch.run()
+	print 'Ok'
+    batch.run()
  
     
  
