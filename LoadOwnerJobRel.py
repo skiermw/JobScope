@@ -71,20 +71,12 @@ def load_batch(rows, graph_db):
 		
 		schedule, job = row
 		print 'schedule %s, job %s' % (schedule, job)
-		#schedule_node = batch.get_or_create_indexed_node("Schedule", "name", schedule, {'name': schedule})
-		#job_node = batch.get_or_create_indexed_node("Job", "jobname", job)
+		
 		for schedule_node in graph_db.find("Schedule", 'name', schedule):
 			print 'schedule_node name is %s' % schedule_node["name"]
 		for job_node in graph_db.find("Job", 'jobname', job):
 			print 'job_node name is %s' % job_node["jobname"]
-		#job_node = graph_db.get_indexed_node("Job", 'jobname', job)
-		#print 'job_node jobname is %s' % job_node.jobname
-		#schedule_node = batch.create(node(name=schedule))
 		
-		#batch.add_labels(schedule_node, "Schedule")
-		 
-		#job_node = batch.create(node(jobname=job))
-		#batch.add_labels(job_node, "Job")
 		batch.create(rel(schedule_node, "OWNS", job_node))
 	print 'OK'
 	batch.run()
@@ -94,17 +86,6 @@ if __name__ == '__main__':
 	
 ######################################################################################	
 
-'''	#job_node = batch.get_or_create_indexed_node("Job", 'jobname', job, {'jobname': job})
-		
-		#for schedule_node in graph_db.find("Schedule", property_key='name', property_value=schedule)
-		#print 'schedule_node = %s' % schedule_node.name
-		#job_node = graph_db.get_indexed_node("Job", 'jobname', job)
-		#job_node = graph_db.find("Job", 'jobname', job)
-		#print ' %i OWNS %i' % (schedule_node._id, job_node._id)
-		
-		#batch.create(rel(schedule_node, "OWNS", job_node))
-		
-		#batch.get_or_create_indexed_relationship(SUCCESSOR_INDEX, 'type', "SUCCESSOR", pred_job, "SUCCESSOR", succ_job, {})
-		'''	
+
 
 

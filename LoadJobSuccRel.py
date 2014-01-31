@@ -23,10 +23,10 @@ def main():
 def connect():
     try:
         #graph_db = neo4j.GraphDatabaseService("http://localhost:7474/db/data/")
-		neo4j.authenticate("batch.sb01.stations.graphenedb.com:24789",
-                   "Batch", "OdrjS6dFQQElASckvoUN")
+		neo4j.authenticate("jobscope.sb01.stations.graphenedb.com:24789",
+                   "JobScope", "0W07c5PCLYr4yxPDd9ir")
 
-		graph_db = neo4j.GraphDatabaseService("http://batch.sb01.stations.graphenedb.com:24789/db/data/")
+		graph_db = neo4j.GraphDatabaseService("http://jobscope.sb01.stations.graphenedb.com:24789/db/data/")
     except rest.ResourceNotFound:
         print 'Database service not found'
     return graph_db
@@ -59,15 +59,15 @@ def load_batch(rows, graph_db):
 	
     for row in rows:
 		pred, succ = row
-		
-		for pred_node in graph_db.find("Job", 'jobname', pred):
+		#print "%s %s" % (pred, succ)
+		for pred_node in graph_db.find('Job', 'jobname', pred):
+			
 			print 'pred_node name is %s' % pred_node["jobname"]
 		for succ_node in graph_db.find("Job", 'jobname', succ):
 			print 'succ_node name is %s' % succ_node["jobname"]
 
-		#batch.create(rel(pred_node, "SUCCESSOR", succ_node))
-		
-	print 'Ok'
+		batch.create(rel(pred_node, "SUCCESSOR", succ_node))
+    print 'Ok'
     batch.run()
  
     

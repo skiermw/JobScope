@@ -6,8 +6,8 @@ from flask import Flask, request, session, g, redirect, url_for, \
 
 
 # configuration
-PRED_QUERY = "start n=node:job_index(jobname = %s) match o-[:OWNS]->p-[:SUCCESSOR]->(n) return p.jobname, o.name"
-SUCC_QUERY = "start n=node:job_index(jobname = %s) match n-[:SUCCESSOR]->(s)<-[:OWNS]-o return s.jobname, o.name"
+PRED_QUERY = "MATCH sched-[:OWNS]->p-[:SUCCESSOR]->(n:Job {jobname: %s}) RETURN sched.name, p.jobname"
+SUCC_QUERY = "MATCH (n:Job {jobname:%s})-[:SUCCESSOR]->(s)<-[:OWNS]-sched RETURN s.jobname, sched.name"
 DEBUG = True
 SECRET_KEY = 'development key'
 
@@ -21,11 +21,15 @@ app.config.from_object(__name__)
 
 def connect_db():
     try:
-        graph_db = neo4j.GraphDatabaseService("http://localhost:7474/db/data/")
+        #graph_db = neo4j.GraphDatabaseService("http://localhost:7474/db/data/")
+		neo4j.authenticate("jobscope.sb01.stations.graphenedb.com:24789",
+                   "JobScope", "0W07c5PCLYr4yxPDd9ir")
+
+		graph_db = neo4j.GraphDatabaseService("http://jobscope.sb01.stations.graphenedb.com:24789/db/data/")
     except rest.ResourceNotFound:
         print 'Database service not found'
     return graph_db
-	
+		
 def init_db():
     with closing(connect_db()) as db:
         with app.open_resource('schema.sql', mode='r') as f:
@@ -53,10 +57,14 @@ def show_jobs():
 		graph_db = connect_db()
 		
 		p_query = neo4j.CypherQuery(graph_db, pred_query)
-		predessors = [dict(jobname=result.p_jobname, owner=result.o_name) for result in p_query.stream()]
-		
+		#predessors = [dict(jobname=result.p_jobname, owner=result.o_name) for result in p_query.stream()]
+		for result in p_query.stream():
+			print result 
+			#predessors = dict(jobname=result.p_jobname, owner=result.o_name) 
 		s_query = neo4j.CypherQuery(graph_db, succ_query)
-		successors = [dict(jobname=result.s_jobname, owner=result.o_name) for result in s_query.stream()]
+		for result in s_query.stream():
+			print result
+			#successors = [dict(jobname=result.s_jobname, owner=result.o_name)
 	else:
 		predessors = ""
 		successors = ""
