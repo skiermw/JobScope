@@ -6,8 +6,8 @@ from flask import Flask, request, session, g, redirect, url_for, \
 
 
 # configuration
-PRED_QUERY = "MATCH sched-[:OWNS]->p-[:SUCCESSOR]->(n:Job {jobname: %s}) RETURN sched.name, p.jobname"
-SUCC_QUERY = "MATCH (n:Job {jobname:%s})-[:SUCCESSOR]->(s)<-[:OWNS]-sched RETURN s.jobname, sched.name"
+PRED_QUERY = "MATCH sched-[:OWNS]->p-[:SUCCESSOR]->(n:Job {jobname: %s}) RETURN sched.name as sched, p.jobname as pred"
+SUCC_QUERY = "MATCH (n:Job {jobname:%s})-[:SUCCESSOR]->(s)<-[:OWNS]-sched RETURN s.jobname as succ, sched.name as sched"
 DEBUG = True
 SECRET_KEY = 'development key'
 
@@ -55,19 +55,19 @@ def show_jobs():
 		succ_query = SUCC_QUERY % start_job.upper()
 		
 		graph_db = connect_db()
-		
+		#predessors = []
+		#successors = []
 		p_query = neo4j.CypherQuery(graph_db, pred_query)
-		#predessors = [dict(jobname=result.p_jobname, owner=result.o_name) for result in p_query.stream()]
-		for result in p_query.stream():
-			print result 
-			#predessors = dict(jobname=result.p_jobname, owner=result.o_name) 
 		s_query = neo4j.CypherQuery(graph_db, succ_query)
-		for result in s_query.stream():
-			print result
-			#successors = [dict(jobname=result.s_jobname, owner=result.o_name)
+		#predessors = [dict(jobname=result.p_jobname, owner=result.o_name) for result in p_query.stream()]
+		predessors = [dict(jobname=result.pred, owner=result.sched) for result in p_query.stream()]
+		successors = [dict(jobname=result.succ, owner=result.sched) for result in s_query.stream()]
+		
 	else:
 		predessors = ""
 		successors = ""
+	#print 'predessors = %s' % predessors
+	#print 'successors = %s' % successors
 	
 	print 'Num predessors %i' % len(predessors)
 	print 'Num successors %i' % len(successors)
