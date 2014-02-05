@@ -1,0 +1,3527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:pdm="http://schemas.ca.com/schemas/ServicePlus/ExportData">
+<Styles>
+<Style ss:ID="Default" ss:Name="Normal">
+<Alignment ss:Vertical="Bottom"/>
+<Borders/>
+<Font/>
+<Interior/>
+<NumberFormat/>
+<Protection/>
+</Style>
+<Style ss:ID="url" ss:Name="Hyperlink">
+<Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss" ss:Color="#0000FF" ss:Underline="Single"/>
+</Style>
+<Style ss:ID="yellow">
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss"/>
+<Interior ss:Color="yellow" ss:Pattern="Solid"/>
+</Style>
+<Style ss:ID="green">
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss"/>
+<Interior ss:Color="green" ss:Pattern="Solid"/>
+</Style>
+<Style ss:ID="black">
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss"/>
+<Interior ss:Color="black" ss:Pattern="Solid"/>
+</Style>
+<Style ss:ID="blue">
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss"/>
+<Interior ss:Color="blue" ss:Pattern="Solid"/>
+</Style>
+<Style ss:ID="brown">
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss"/>
+<Interior ss:Color="brown" ss:Pattern="Solid"/>
+</Style>
+<Style ss:ID="grey">
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss"/>
+<Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+</Style>
+<Style ss:ID="pink">
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss"/>
+<Interior ss:Color="pink" ss:Pattern="Solid"/>
+</Style>
+<Style ss:ID="purple">
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss"/>
+<Interior ss:Color="purple" ss:Pattern="Solid"/>
+</Style>
+<Style ss:ID="red">
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss"/>
+<Interior ss:Color="red" ss:Pattern="Solid"/>
+</Style>
+<Style ss:ID="white">
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss"/>
+<Interior ss:Color="white" ss:Pattern="Solid"/>
+</Style>
+<Style ss:ID="string">
+<Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss"/>
+</Style>
+<Style ss:ID="string_url">
+<Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss" ss:Color="#0000FF" ss:Underline="Single"/>
+</Style>
+<Style ss:ID="number">
+<Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss"/>
+<NumberFormat ss:Format="Standard"/>
+</Style>
+<Style ss:ID="number_url">
+<Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss" ss:Color="#0000FF" ss:Underline="Single"/>
+<NumberFormat ss:Format="Standard"/>
+</Style>
+<Style ss:ID="integer">
+<Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss"/>
+<NumberFormat ss:Format="#,##0"/>
+</Style>
+<Style ss:ID="integer_url">
+<Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss" ss:Color="#0000FF" ss:Underline="Single"/>
+<NumberFormat ss:Format="#,##0"/>
+</Style>
+<Style ss:ID="date">
+<Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss"/>
+<NumberFormat ss:Format="General Date"/>
+</Style>
+<Style ss:ID="date_url">
+<Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss" ss:Color="#0000FF" ss:Underline="Single"/>
+<NumberFormat ss:Format="General Date"/>
+</Style>
+<Style ss:ID="subHeader">
+<Alignment ss:Vertical="Bottom" ss:Horizontal="Center"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss" ss:Bold="1"/>
+<Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+</Style>
+<Style ss:ID="aggregationLabel">
+<Alignment ss:Vertical="Bottom" ss:Horizontal="Left" ss:WrapText="0"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss" ss:Bold="1"/>
+<Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+</Style>
+<Style ss:ID="aggregationDate">
+<Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss" ss:Bold="1"/>
+<Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+<NumberFormat ss:Format="General Date"/>
+</Style>
+<Style ss:ID="aggregationValue">
+<Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss" ss:Bold="1"/>
+<Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+<NumberFormat ss:Format="Standard"/>
+</Style>
+<Style ss:ID="headerLeft">
+<Alignment ss:Vertical="Bottom" ss:Horizontal="Left" ss:WrapText="0"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss" ss:Bold="1"/>
+<Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+</Style>
+<Style ss:ID="headerRight">
+<Alignment ss:Vertical="Bottom" ss:Horizontal="Right" ss:WrapText="0"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss" ss:Bold="1"/>
+<Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+</Style>
+<Style ss:ID="headerCenter">
+<Alignment ss:Vertical="Bottom" ss:Horizontal="Center" ss:WrapText="0"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss" ss:Bold="1"/>
+<Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+</Style>
+<Style ss:ID="headerLeftWrap">
+<Alignment ss:Vertical="Bottom" ss:Horizontal="Left" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss" ss:Bold="1"/>
+<Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+</Style>
+<Style ss:ID="headerRightWrap">
+<Alignment ss:Vertical="Bottom" ss:Horizontal="Right" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss" ss:Bold="1"/>
+<Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+</Style>
+<Style ss:ID="headerCenterWrap">
+<Alignment ss:Vertical="Bottom" ss:Horizontal="Center" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss" ss:Bold="1"/>
+<Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+</Style>
+<Style ss:ID="style0">
+<Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss"/>
+<NumberFormat ss:Format="#,##0.00"/>
+</Style>
+<Style ss:ID="aggregationValueStyle0">
+<Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font x:Family="Swiss" ss:Bold="1"/>
+<Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+<NumberFormat ss:Format="#,##0.00"/>
+</Style>
+</Styles>
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Title>Incident List</Title>
+<Author>TSOJMW</Author>
+<AppName>CA Service Desk Manager</AppName>
+<Created>2014-02-04T15:04:58Z</Created>
+</DocumentProperties>
+<CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<ExportDate dt:dt="dateTime.tz">2014-02-04T15:04:58Z</ExportDate>
+<ExportUser dt:dt="string">TSOJMW</ExportUser>
+<ExportFactory dt:dt="string">in</ExportFactory>
+<ExportWhereClause dt:dt="string">active = 1 AND affected_resource.name LIKE 'AUTO%' AND (assignee IS NOT NULL OR group IS NOT NULL) AND (type = 'I')</ExportWhereClause>
+<ExportSortClause dt:dt="string">open_date DESC</ExportSortClause>
+</CustomDocumentProperties>
+<Worksheet ss:Name="Incident List">
+<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+<PageSetup>
+<Header x:Data="&amp;C&amp;&quot;Bold&quot;&amp;18&amp;A"/>
+<Footer x:Data="&amp;C&amp;&quot;Bold&quot;&amp;16&amp;P"/>
+</PageSetup>
+</WorksheetOptions>
+<Table x:FullColumns="1" x:FullRows="1">
+    <Row>
+<Cell ss:StyleID="headerCenterWrap">
+<Data ss:Type="String"><![CDATA[Incident #]]></Data>
+</Cell>
+<Cell ss:StyleID="headerCenterWrap">
+<Data ss:Type="String"><![CDATA[Summary]]></Data>
+</Cell>
+<Cell ss:StyleID="headerCenterWrap">
+<Data ss:Type="String"><![CDATA[Priority]]></Data>
+</Cell>
+<Cell ss:StyleID="headerCenterWrap">
+<Data ss:Type="String"><![CDATA[Problem]]></Data>
+</Cell>
+<Cell ss:StyleID="headerCenterWrap">
+<Data ss:Type="String"><![CDATA[Parent]]></Data>
+</Cell>
+<Cell ss:StyleID="headerCenterWrap">
+<Data ss:Type="String"><![CDATA[Status]]></Data>
+</Cell>
+<Cell ss:StyleID="headerCenterWrap">
+<Data ss:Type="String"><![CDATA[Assigned To]]></Data>
+</Cell>
+<Cell ss:StyleID="headerCenterWrap">
+<Data ss:Type="String"><![CDATA[Configuration Item]]></Data>
+</Cell>
+<Cell ss:StyleID="headerCenterWrap">
+<Data ss:Type="String"><![CDATA[Open Date]]></Data>
+</Cell>
+<Cell ss:StyleID="headerCenterWrap">
+<Data ss:Type="String"><![CDATA[Service Target]]></Data>
+</Cell>
+<Cell ss:StyleID="headerCenterWrap">
+<Data ss:Type="String"><![CDATA[Group]]></Data>
+</Cell>
+<Cell ss:StyleID="headerCenterWrap">
+<Data ss:Type="String"><![CDATA[Affected End User]]></Data>
+</Cell>
+<Cell ss:StyleID="headerCenterWrap">
+<Data ss:Type="String"><![CDATA[Category]]></Data>
+</Cell>
+<Cell ss:StyleID="headerCenterWrap">
+<Data ss:Type="String"><![CDATA[Caused by Change Order]]></Data>
+</Cell>
+<Cell ss:StyleID="headerCenterWrap">
+<Data ss:Type="String"><![CDATA[Projected Violation]]></Data>
+</Cell>
+<Cell ss:StyleID="headerCenterWrap">
+<Data ss:Type="String"><![CDATA[Resolution Code]]></Data>
+</Cell>
+<Cell ss:StyleID="headerCenterWrap">
+<Data ss:Type="String"><![CDATA[Reported By]]></Data>
+</Cell>
+</Row>
+    <Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=848015" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[449001]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PAP160 BALPAP60 RECYCLE RECORDS CCODE=3106]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[1B-NextBatch]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Hold Pending Implementation]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[THOMAS, TROY ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-02-04T06:35:56]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=848014" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[449000]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PAP112 BALPAPCR02 AUTO MUTUAL CASH RUN CCODE=3101]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[1B-NextBatch]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[448549]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Resolved]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[HOLDER, LAWRENCE ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-02-04T06:35:55]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Payment Services]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Software]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=848012" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[448998]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PAP080 BALPAP80 BALANCE RESERVE TOTAL FOR PAP080 CCODE=3113]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[1B-NextBatch]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Resolved]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PENDERGAST, BETH ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-02-04T06:35:54]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[No Action]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=848009" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[448995]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CICSSP TRAN SPN3  PGM XTRCS001 HAS HAD AN EXCEPTION CONDITIO...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[2-Medium]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Open]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-02-03T23:27:11]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-02-04T16:00:00]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=848008" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[448994]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CICSSP TRAN SPN1  PGM GETMASTR HAS HAD AN EXCEPTION CONDITIO...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[2-Medium]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Open]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-02-03T23:26:05]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-02-04T16:00:00]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=847977" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[448963]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto: 24-1-3376811-9 MATAJAC, ANTHONY    User called to repo...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[2-Medium]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Open]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-02-03T16:29:42]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[WISDOM, KELLI ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-02-04T16:00:00]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[MAGRUDER, KYLE ]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=847973" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[448959]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CICSSP TRAN SPAS  PGM FINALIZE HAS HAD AN EXCEPTION CONDITIO...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[2-Medium]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[423844]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Open]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-02-03T16:20:28]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-02-04T15:50:28]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=847604" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[448590]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PAP112 BALPAPCR02 AUTO MUTUAL CASH RUN CCODE=3101]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[1B-NextBatch]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[448550]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Resolved]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[HOLDER, LAWRENCE ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-02-03T06:35:54]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Payment Services]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Software]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=847600" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[448586]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CICSSP TRAN SPN1  PGM GETMASTR HAS HAD AN EXCEPTION CONDITIO...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[2-Medium]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Open]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[HASKINS, MATT ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-02-02T23:18:42]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=847563" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[448549]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PAP112 BALPAPCR02 AUTO MUTUAL CASH RUN CCODE=3101]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[1B-NextBatch]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[448525]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Resolved]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[POPP, RANDY ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-02-01T06:35:49]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Payment Services]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Software]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=847560" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[448546]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PAP080 BALPAP80 BALANCE RESERVE TOTAL FOR PAP080 CCODE=3113]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[1B-NextBatch]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Resolved]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PENDERGAST, BETH ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-02-01T06:35:48]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Software]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=847539" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[448525]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[UNI00100 ABCODE=CCFAIL CCFAIL ESP(TSOZYX)  SYSNAME=3090]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[1-High]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[448210]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Resolved]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[POPP, RANDY ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-31T23:28:45]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Payment Services]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Software]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=847529" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[448515]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CICSSP TRAN SPAP  PGM GETMASTR HAS HAD AN EXCEPTION CONDITIO...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[2-Medium]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Open]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[HASKINS, MATT ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-31T22:18:21]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=847469" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[448455]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto - 24-1-6971686-2 RONEY, NORMA 00000501/u-saved change]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[448393]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Hold - Waiting on Response]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[STEPNEY, CAROL ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-31T14:52:39]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[RUFF, DIANE ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[STANFIELD, SARA ]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=847407" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[448393]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CICSSP TRAN SPAP  PGM MEDI8INS HAS HAD AN EXCEPTION CONDITIO...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Open]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[HASKINS, MATT ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-31T13:08:45]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-02-07T11:15:53]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=847224" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[448210]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PAP112 BALPAPCR02 AUTO MUTUAL CASH RUN CCODE=3101]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[1B-NextBatch]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Resolved]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[POPP, RANDY ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-31T06:35:49]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Payment Services]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Software]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=847218" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[448204]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CICSSP TRAN SPAX  PGM TEMPCRUD HAS HAD AN EXCEPTION CONDITIO...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[2-Medium]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[448749]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[440271]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Resolved]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[GLOVER, GREG ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-30T22:04:22]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Software]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=847182" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[448168]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto Szostak, Mandonna R 12-1-c-4953640-9]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Hold - Waiting on Response]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[STEPNEY, CAROL ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-30T15:48:47]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[KAUFMANN, JOHN ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PARDOE, BEVERLY ]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=847060" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[448046]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[eAuto - 13-1-8700555-7 PITTMAN, WILLIAM E 000819]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Hold - Waiting on Response]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[STEPNEY, CAROL ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-30T12:04:03]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[RUFF, DIANE ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PARDOE, BEVERLY ]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=846977" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[447963]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CICSSP TRAN SPAP  PGM FORM     HAS HAD AN EXCEPTION CONDITIO...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Open]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[HASKINS, MATT ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-30T10:16:35]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-02-07T12:33:23]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=846873" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[447859]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PAP112 BALPAPCR02 AUTO MUTUAL CASH RUN CCODE=3101]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[1B-NextBatch]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Resolved]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[POPP, RANDY ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-30T06:35:58]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Payment Services]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Software]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=846695" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[447681]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[eAuto - Gary Shores 41-1-5400058-5 and 6  new safe driver]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Resolved]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PENDERGAST, BETH ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-29T11:38:33]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[RUFF, DIANE ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Software]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PARDOE, BEVERLY ]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=846569" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[447555]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[eAuto - 41-1-C-4766773-1 EDWARDS, PAUL E PEA052]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Open]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[THOMAS, TROY ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-29T08:08:36]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[RUFF, DIANE ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PARDOE, BEVERLY ]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=846549" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[447535]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PAP112 BALPAPCR02 AUTO MUTUAL CASH RUN CCODE=3101]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[1B-NextBatch]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[446554]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Resolved]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[POPP, RANDY ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-29T06:35:53]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Payment Services]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Software]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=846193" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[447161]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[eAuto - 24-1-2774673-23 Jacobson]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Hold - Waiting on Response]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[STEPNEY, CAROL ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-28T12:11:27]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[ATKINS, ROBIN ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PARDOE, BEVERLY ]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=846148" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[447116]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CICSSP TRAN SPAP  PGM POLCFORM HAS HAD AN EXCEPTION CONDITIO...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Open]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[HASKINS, MATT ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-28T10:52:17]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-02-05T13:52:50]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=845912" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[446919]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PAP112 BALPAPCR02 AUTO MUTUAL CASH RUN CCODE=3101]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[1B-NextBatch]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Resolved]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[POPP, RANDY ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-28T06:35:49]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Payment Services]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Software]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=844923" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[445930]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CICSSP TRAN SPAP  PGM POLCFORM HAS HAD AN EXCEPTION CONDITIO...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Open]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[SANTOS, GUS ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-23T11:39:33]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=844053" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[445056]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[The General to Mutual signature form process needs to supres...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Hold Pending Implementation]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[WALKER, KEVIN ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-21T08:22:32]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[SMITH, RYAN ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Software]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[WALKER, KEVIN ]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=843904" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[444907]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto - 26-1-8745636-2]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Open]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[SWANSON, TERRY ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-20T12:28:05]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Payment Services]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[LOGERMAN, JTEENA ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[STANFIELD, SARA ]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=843730" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[444733]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Change SPASGTMS to a weekly process instead of monthly:    A...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Resolved]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[WALKER, KEVIN ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-20T07:26:51]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[WALKER, KEVIN ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Software]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[WALKER, KEVIN ]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=843064" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[444067]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[eAuto - fn#8977432, Blunt]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Hold - Waiting on Response]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PARDOE, BEVERLY ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-16T08:36:36]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Support Center]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[THOMPSON-KOCH, MICHELE ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PARDOE, BEVERLY ]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=842882" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[443885]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[eAuto - 24-1-5568983-9  000816]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Hold - Waiting on Response]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[BOOS, RYAN ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-15T13:21:49]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[eCommerce Online Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[RUFF, DIANE ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PARDOE, BEVERLY ]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=840224" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[441273]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Reinstatement Fee Notification - Supplemental Billings 03-1-...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Hold - Waiting on Response]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[ALDRICH, CHARLENE ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-06T10:33:21]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[BP-Underwriting]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[HAYES, AARON ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[THOMAS, CHARLENE ]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=839973" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[441022]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CICSSP TRAN SPAP  PGM SPA34IO  HAS HAD AN EXCEPTION CONDITIO...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Hold - Waiting on Response]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[BOOS, RYAN ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-03T15:04:13]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[eCommerce Online Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=839552" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[440601]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto - 35-1-4239744-7]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[440317]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Open]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[SWANSON, DEBBIE ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-02T14:03:56]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[BP-Underwriting/IS Liaisons]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[SWANSON, DEBBIE ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[STANFIELD, SARA ]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=839268" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[440317]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CICSSP TRAN SPAP  PGM P006V001 HAS HAD AN EXCEPTION CONDITIO...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[2-Medium]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Hold Pending Implementation]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[GAINES, TROY ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2014-01-02T07:16:57]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[eCommerce Online Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Software]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=837602" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[438651]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CICSSP TRAN SPAP  PGM POLICYT  HAS HAD AN EXCEPTION CONDITIO...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[2-Medium]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Work In Progress]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[HASKINS, MATT ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2013-12-23T13:53:53]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=835279" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[436326]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[EOLINES:   03-71-7420370-1  TALBERT, ZACHARY C AND TIFFANY]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Open]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Paasch, Benjamin ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2013-12-13T10:38:07]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[eCommerce Online Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[FERGUSON, STEVE ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto.eCommerce.Online]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CUNNINGHAM, JULIE ]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=833514" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[434561]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[eAuto - 23-1-c-7637154-7 JWL Trucking]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Hold - Waiting on Response]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[GRABARCZYK, GREG ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2013-12-09T13:55:51]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[eCommerce Online Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[ANDREWS, PAT ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PARDOE, BEVERLY ]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=832889" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[433936]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[eAuto - 5475012/Mask RSA]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Hold - Waiting on Response]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[HOLDER, LAWRENCE ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2013-12-06T11:52:48]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Payment Services]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[LOGERMAN, JTEENA ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Usage]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PARDOE, BEVERLY ]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=830595" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[431691]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[24-1-1944592-1 - rate class  On 11/21/13 a rate class change...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Open]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[GRABARCZYK, GREG ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2013-11-25T11:31:23]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[eCommerce Online Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[LOGERMAN, JTEENA ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Software]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[THOMAS, CHARLENE ]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=823779" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[424864]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CICSSP TRAN SPAS  PGM GETMASTR HAS HAD AN EXCEPTION CONDITIO...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[2-Medium]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Open]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CADAOAS, NICK ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2013-10-25T12:23:11]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=823303" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[424388]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[eAuto - 03-1-7414309-2 HOWELL, DANIEL R - 3ar053]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Acknowledged]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Paasch, Benjamin ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2013-10-23T13:50:50]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[eCommerce Online Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[LOGERMAN, JTEENA ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PARDOE, BEVERLY ]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=815150" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[416229]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CICSSP TRAN SPAP  PGM ARELEDIT HAS HAD AN EXCEPTION CONDITIO...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[2-Medium]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Open]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PETERSON, MIKEL ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2013-09-18T13:47:41]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto.Refurb]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=813202" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[414281]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CICSSP TRAN SPAP  PGM ENDCOV   HAS HAD AN EXCEPTION CONDITIO...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[2-Medium]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Open]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CADAOAS, NICK ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2013-09-11T10:01:42]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto.Refurb]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=812686" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[413765]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CICSSP TRAN SPAP  PGM SPA41IO  HAS HAD AN EXCEPTION CONDITIO...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[2-Medium]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Work In Progress]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CADAOAS, NICK ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2013-09-09T14:12:32]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=810668" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[411724]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Nick, data fixes are needed to delete these entries off the ...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[2-Medium]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Work In Progress]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[SENGALVARAYAN, ARUNKUMAR ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2013-08-30T07:54:21]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[ALDRICH, CHARLENE ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Stale Data]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[SENGALVARAYAN, ARUNKUMAR ]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=808725" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[409781]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CICSSP TRAN SPAX  PGM SPA30IO  HAS HAD AN EXCEPTION CONDITIO...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[2-Medium]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[411745]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Hold - Waiting on Response]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CADAOAS, NICK ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2013-08-21T22:09:19]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto.Refurb]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Software]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[System_OPS/MVS_User]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=805170" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[406220]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[eAuto 24-1-8117875-1 GREGG, ELIZABETH B 2ae489]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Hold - Waiting on Response]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[GAINES, TROY ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2013-08-07T14:09:51]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[eCommerce Online Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[RUFF, DIANE ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Software]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PARDOE, BEVERLY ]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=800394" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[401445]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[eAuto 41-1-6921650-3/Robert L Queener]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Hold - Waiting on Response]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[GAINES, TROY ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2013-07-19T14:55:36]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[eCommerce Online Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[FRANKEN, MARY ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PARDOE, BEVERLY ]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=798742" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[399787]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto 05-1-3418180-3 FIFTA, TEVITA]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Open]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PETERSON, MIKEL ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2013-07-15T08:51:32]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[LOGERMAN, JTEENA ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[PARDOE, BEVERLY ]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=796859" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[397904]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[05-1-7312376-1 PRIORITY 2  A u-saved change was processed fo...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[2-Medium]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Open]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CADAOAS, NICK ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2013-07-08T08:17:58]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[RUFF, DIANE ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Applications.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[THOMAS, CHARLENE ]]></Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:HRef="https://sdmp.shelterinsurance.com/CAisd/pdmweb.exe?OP=SEARCH+FACTORY=in+SKIPLIST=1+QBE.EQ.id=709851" ss:StyleID="string_url">
+<Data ss:Type="String"><![CDATA[310931]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[CROSSPOL:     Agent believes that there is not ample enough ...]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[3-Low]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[Open]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[FRENCH, DAVID ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[AUTO]]></Data>
+</Cell>
+<Cell ss:StyleID="date">
+<Comment>
+<Data><![CDATA[
+]]><![CDATA[-06:00]]></Data>
+</Comment>
+<Data ss:Type="DateTime"><![CDATA[2012-06-28T13:09:58]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[BP-Marketing]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[TELFORD, TERRY ]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[ISCCalls.Applications.Auto.Auto]]></Data>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"/>
+</Cell>
+<Cell ss:StyleID="string">
+<Data ss:Type="String"><![CDATA[BISHOP, PATRICK ]]></Data>
+</Cell>
+</Row>
+  </Table>
+</Worksheet>
+</Workbook>

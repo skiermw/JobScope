@@ -8,7 +8,7 @@ from flask import Flask, request, session, g, redirect, url_for, \
 # configuration
 PRED_QUERY = "MATCH sched-[:OWNS]->p-[:SUCCESSOR]->(n:Job {jobname: %s}) RETURN sched.name as sched, p.jobname as pred"
 SUCC_QUERY = "MATCH (n:Job {jobname:%s})-[:SUCCESSOR]->(s)<-[:OWNS]-sched RETURN s.jobname as succ, sched.name as sched"
-DEBUG = True
+#DEBUG = True
 SECRET_KEY = 'development key'
 
 start_job =""
